@@ -6,7 +6,7 @@ header("Refresh: 5; URL=$url1");
 
 // Create connection to Oracle
 $username = "system";
-$password = "s4mur4i";
+$password = "change_me";
 $db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 10.50.96.107)(PORT = 1521)))(CONNECT_DATA=(SID = club)))";
 
 $conn = oci_connect( $username, $password, $db);

@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect('dc3-trvl-prod-db-mysql09.dc3.deem.zone', 'dba', 'rearden1$', 'taxiway_gateway');
+$connect = mysqli_connect('dc3-trvl-prod-db-mysql09.dc3.google.zone', 'dba', 'rearden1$', 'taxiway_gateway');
 if(mysqli_connect_errno($connect)){
 echo 'Failed to connecto to database'.mysqli_connect_error();}
 

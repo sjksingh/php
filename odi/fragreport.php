@@ -1,5 +1,5 @@
 <?php
-$DB = new mysqli ('dc3-trvl-prod-db-mysql108.dc3.deem.zone', 'dba', 'rearden1$');
+$DB = new mysqli ('dc3-trvl-prod-db-mysql108.dc3.google.zone', 'dba', 'rearden1$');
 $results = $DB->query('show databases');
 $allDbs = array();
 while ($row = $results->fetch_array(MYSQLI_NUM))

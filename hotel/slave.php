@@ -2,9 +2,9 @@
 $username = "dba";
 $password = "rearden1$";
 $servers = array(
-	"dc3-trvl-prod-db-mysql110.dc3.deem.zone",
-	"dc3-trvl-prod-db-mysql111.dc3.deem.zone",
-	"dc3-trvl-prod-db-mysql119.dc3.deem.zone",
+	"dc3-trvl-prod-db-mysql110.dc3.google.zone",
+	"dc3-trvl-prod-db-mysql111.dc3.google.zone",
+	"dc3-trvl-prod-db-mysql119.dc3.google.zone",
 );
 
 $errors = '';

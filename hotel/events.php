@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect('dc3-trvl-prod-db-mysql10.dc3.deem.zone', 'dba', 'rearden1$', 'expense');
+$connect = mysqli_connect('dc3-trvl-prod-db-mysql10.dc3.google.zone', 'dba', 'rearden1$', 'expense');
 if(mysqli_connect_errno($connect)){
 echo 'Failed to connecto to database'.mysqli_connect_error();}
 

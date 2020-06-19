@@ -7,8 +7,8 @@
 
  // Create connection to Oracle
  $username = "system";
- $password = "s4mur4i";
- $host = "cluc.dc3.deem.zone";
+ $password = "change_me";
+ $host = "cluc.dc3.google.zone";
  $db_name = "CLUC";
 
  $db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = $host)(PORT = 1521)))(CONNECT_DATA=(SID = $db_name)))";

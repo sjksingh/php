@@ -7,8 +7,8 @@
 
  // Create connection to Oracle
  $username = "system";
- $password = "s4mur4i";
- $host = "MGMT.dc3.deem.zone";
+ $password = "change_me";
+ $host = "MGMT.dc3.google.zone";
  $db_name = "MGMT";
 
  $db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = $host)(PORT = 1521)))(CONNECT_DATA=(SID = $db_name)))";

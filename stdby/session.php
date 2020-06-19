@@ -2,7 +2,7 @@
 
 // Create connection to Oracle
 $username = "system";
-$password = "s4mur4i";
+$password = "change_me";
 $db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = clubrpt.dc.vip.rden.us)(PORT = 1521)))(CONNECT_DATA=(SID = club)))";
 
 $conn = oci_connect( $username, $password, $db);

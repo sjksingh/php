@@ -64,7 +64,7 @@ $url1=$_SERVER['REQUEST_URI'];
 header("Refresh: 5; URL=$url1");
 
 
-$host    = "dc3-trvl-prod-db-mysql09.dc3.deem.zone";
+$host    = "dc3-trvl-prod-db-mysql09.dc3.google.zone";
 $user    = "dba";
 $pass    = "rearden1$";
 $db_name = "information_schema";

@@ -65,7 +65,7 @@ $url1=$_SERVER['REQUEST_URI'];
 header("Refresh: 10; URL=$url1");
 
 
-$host    = "dc3-trvl-prod-db-mysql11.dc3.deem.zone";
+$host    = "dc3-trvl-prod-db-mysql11.dc3.google.zone";
 $user    = "dba";
 $pass    = "rearden1$";
 $db_name = "hotel_db";

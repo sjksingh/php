@@ -2,8 +2,8 @@
 
 // Create connection to Oracle
 $username = "system";
-$password = "s4mur4i";
-$db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = clud.dc3.deem.zone)(PORT = 1599)))(CONNECT_DATA=(SID = clud)))";
+$password = "change_me";
+$db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = clud.dc3.google.zone)(PORT = 1599)))(CONNECT_DATA=(SID = clud)))";
 
 $conn = oci_connect( $username, $password, $db);
 if (!$conn) {

@@ -58,7 +58,7 @@ body {
 <!-- END of HTML MENU.... -->
 <!-- Now we start the actual data fetch.... -->
 <?php
-$host    = "dc3-trvl-prod-db-mysql10.dc3.deem.zone";
+$host    = "dc3-trvl-prod-db-mysql10.dc3.google.zone";
 $user    = "dba";
 $pass    = "rearden1$";
 $db_name = "expense";
